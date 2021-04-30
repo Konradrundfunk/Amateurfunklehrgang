@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v1
     - name: Convert to pdf
       id: convert-to-pdf
-      uses: Konradrundfunk/pdflatex-action@v1.1.1
+      uses: Konradrundfunk/pdflatex-action@1.1.1
       with:
         texFile: ./Kurzwellenausbreitung.tex
     - name: Store pdf
