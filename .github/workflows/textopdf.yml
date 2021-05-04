@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
-    - name: Convert to pdf
+    - name: convert to pdf
       id: convert-to-pdf
       uses: Konradrundfunk/pdflatex-action@1.1.1
       with:
@@ -20,5 +20,5 @@ jobs:
     - name: Store pdf
       uses: actions/upload-artifact@v2
       with:
-        name: Kurzwellenausbreitung Artifakt
+        name: Kurzwellenausbreitung.pdf
         path: "Kurzwellenausbreitung.pdf"
