@@ -15,7 +15,7 @@ jobs:
       id: convert-to-pdf
       uses: Konradrundfunk/pdflatex-action@1.1.1
       with:
-        texFile: ./Kurzwellenausbreitung.tex
+        texFile: ./Kurzwellenausbreitung.tex , ./Was_ist_Amateurfunk.tex
     - run: mkdir -p ~/pdfs
     - name: Store pdf
       uses: actions/upload-artifact@v2
