@@ -16,8 +16,9 @@ jobs:
       uses: Konradrundfunk/pdflatex-action@1.1.1
       with:
         texFile: ./Kurzwellenausbreitung.tex
+    - run: mkdir -p ~/pdf
     - name: Store pdf
       uses: actions/upload-artifact@v2
       with:
-        name: file.pdf
-        path: file.pdf
+        name: "kurzwellenausbreitung.pdf"
+        path: "~/pdfs/kurzwellenausbreitung.pdf"
