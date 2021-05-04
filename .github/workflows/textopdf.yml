@@ -20,5 +20,5 @@ jobs:
     - name: Store pdf
       uses: actions/upload-artifact@v2
       with:
-        name: "kurzwellenausbreitung.pdf"
-        path: "~/pdfs/kurzwellenausbreitung.pdf"
+        name: "Kurzwellenausbreitung.pdf"
+        path: "~/pdfs/Kurzwellenausbreitung.pdf"
