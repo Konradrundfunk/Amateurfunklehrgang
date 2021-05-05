@@ -21,4 +21,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: Amateurfunklehrgang
-        path: "Main.pdf"
+        path: "main.pdf"
