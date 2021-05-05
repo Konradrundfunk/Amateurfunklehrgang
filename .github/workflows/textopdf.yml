@@ -13,10 +13,9 @@ jobs:
       uses: actions/checkout@v1
     - name: convert to pdf
       id: convert-to-pdf
-      uses: Konradrundfunk/pdflatex-action@1.1.1
+      uses: Konradrundfunk/pdflatex-action@1.1.2
       with:
         texFile: ./main.tex
-    - run: mkdir -p ~/pdfs
     - name: Store pdf
       uses: actions/upload-artifact@v2
       with:
