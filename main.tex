@@ -12,24 +12,25 @@
     filecolor=magenta,      
     urlcolor=cyan,
 }
-
+\addtocontents{toc}{\setcounter{tocdepth}{4}} 
 \title{Amateurfunklehrgang}
 \author{Konrad Gralher}
 
 \begin{document}
-\begin{titlepage}
-    \bfseries\Huge\centering{
-    Amateurfunklehrgang 2021\\
-    \vskip3cm
-    \huge\itshape{
-        Konrad Gralher\\
-        }
-    }    
-
-    \begin{figure}
-        \includegraphics[]{assets/640px-Moosbrunn_SW_Antenna}
-        \caption{Kurzwellenstation Moosbrunn}  
-    \end{figure}        
-\end{titlepage}
-\include{subsection/Kurzwellenausbreitung.tex}
+{\bfseries\Huge\centering{
+Amateurfunklehrgang 2021\\
+\huge\itshape{
+    Konrad Gralher\\
+    }
+}
+\begin{figure}
+    \includegraphics[height=320px]{assets/Hexbeam_dl1oli_k.jpg}
+    \caption{Oliver Gottlob, DL1OLi, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons}  
+\end{figure}}
+\tableofcontents
+\include{subsection/Technik/Grundlagen.tex}
+\include{subsection/Technik/Kurzwellenausbreitung.tex}
+\begin{figure}
+    \includegraphics{Formelsammlung_A.pdf}
+\end{figure}
 \end{document}

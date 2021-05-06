@@ -24,11 +24,11 @@ jobs:
         name: Amateurfunklehrgang
         path: main.pdf
     - run: ls
-
-    - name: Commit changes
-      uses: EndBug/add-and-commit@v7
-      with:
-        default_author: github_actions
-        author_email: 33392939+Konradrundfunk@users.noreply.github.com
-        message: 'Auto commit pdfs.'
-        add: '*.pdf'
+#
+#    - name: Commit changes
+#      uses: EndBug/add-and-commit@v7
+#      with:
+#        default_author: github_actions
+#        author_email: 33392939+Konradrundfunk@users.noreply.github.comTage beim Urwald für knapp 25 Euro einen Schultaschenrechner gekauft. Casio fx-911 de-x. Meiner Meinung nach kann der alles, was man irgendwie mal brauchen könnte.
+#        message: 'Auto commit pdfs.'
+#        add: '*.pdf'
